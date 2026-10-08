@@ -1,7 +1,6 @@
 //! gray-file-trigger — per-path reminders appended to write results.
 //!
-//! Named after pi's `file-trigger` extension; the semantics follow the
-//! batch spec: `~/.gray/file-trigger/rules.json` holds
+//! `~/.gray/file-trigger/rules.json` holds
 //! `[{"glob": "**/*.rs", "message": "ran cargo fmt check yourself"}, …]`.
 //! When a write/edit tool's path arg matches a glob, the rule's message is
 //! appended to the tool result (`tool/after` carries no args, so

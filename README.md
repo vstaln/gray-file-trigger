@@ -1,8 +1,13 @@
-# gray-file-trigger
-
-Per-path reminders appended to write/edit results — a gray sidecar plugin
-named after pi's `file-trigger` extension (the semantics follow the port
-spec: glob rules, not pi's watched-file injection).
+<p align="center">
+  <img src="assets/gray-logo.svg" alt="gray" width="96">
+</p>
+<h1 align="center">gray-file-trigger</h1>
+<p align="center">Per-glob reminder messages appended to write/edit tool results.</p>
+<p align="center">
+  <a href="https://github.com/vstaln/gray-file-trigger/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
+  <img alt="gray plugin" src="https://img.shields.io/badge/gray-plugin-7aa2f7.svg">
+  <img alt="rust" src="https://img.shields.io/badge/built%20with-rust-orange.svg">
+</p>
 
 Rules live in `~/.gray/file-trigger/rules.json` (honors `$GRAY_HOME`):
 
@@ -45,3 +50,7 @@ cargo test
 cargo build --release
 gray account check
 ```
+
+---
+Part of the [gray](https://github.com/vstaln/gray) plugin ecosystem —
+the open-source AI agent harness. <https://gray.alignment.id>
