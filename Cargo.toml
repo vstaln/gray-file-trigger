@@ -1,0 +1,17 @@
+[package]
+name = "gray-file-trigger"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.91"
+license = "MIT"
+description = "file-trigger plugin for the gray agent harness"
+
+[[bin]]
+name = "gray-file-trigger"
+path = "src/main.rs"
+
+[dependencies]
+serde_json = "1"
+
+[profile.release]
+strip = true
