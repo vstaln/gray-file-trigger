@@ -1,13 +1,25 @@
-<p align="center">
-  <img src="assets/gray-logo.svg" alt="gray" width="96">
-</p>
-<h1 align="center">gray-file-trigger</h1>
-<p align="center">Per-glob reminder messages appended to write/edit tool results.</p>
-<p align="center">
-  <a href="https://github.com/vstaln/gray-file-trigger/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
-  <img alt="gray plugin" src="https://img.shields.io/badge/gray-plugin-7aa2f7.svg">
-  <img alt="rust" src="https://img.shields.io/badge/built%20with-rust-orange.svg">
-</p>
+<div align="center">
+  <img alt="gray-file-trigger" src="assets/icon.svg" width="120" height="120" />
+  <h1>gray-file-trigger</h1>
+  <p><strong>Attach a message to file writes that match a glob, checked after each write.</strong></p>
+  <p>
+    <a href="https://gray.alignment.id">Website</a> ·
+    <a href="https://gray.alignment.id/plugins/gray-file-trigger">Store</a> ·
+    <a href="https://github.com/vstaln/gray-file-trigger">Source</a> ·
+    <a href="https://github.com/vstaln/gray">gray</a>
+  </p>
+  <p>
+    <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-1c1c20?style=flat-square&labelColor=0a0a0b" /></a>
+    <a href="https://www.rust-lang.org"><img alt="Built with Rust" src="https://img.shields.io/badge/built%20with-rust-1c1c20?style=flat-square&labelColor=0a0a0b&logo=rust&logoColor=d4a373" /></a>
+    <a href="https://gray.alignment.id/plugins/gray-file-trigger"><img alt="gray plugin" src="https://img.shields.io/badge/gray-plugin-1c1c20?style=flat-square&labelColor=0a0a0b&color=7aa2f7" /></a>
+  </p>
+</div>
+
+<br/>
+
+```bash
+gray plugin install gray-file-trigger
+```
 
 Rules live in `~/.gray/file-trigger/rules.json` (honors `$GRAY_HOME`):
 
@@ -50,6 +62,10 @@ cargo test
 cargo build --release
 gray account check
 ```
+
+## Tags
+
+`gray` `plugin` `file-trigger` `rust`
 
 ---
 Part of the [gray](https://github.com/vstaln/gray) plugin ecosystem —
