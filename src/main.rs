@@ -165,6 +165,7 @@ fn manifest() -> Value {
         "tools": [],
         "description": "run a prompt when a watched file changes",
         "commands": ["/trigger"],
+        "command_descriptions": {"/trigger": "list or reload per-path reminder rules"},
         "hooks": ["tool/before", "tool/after"],
     })
 }
